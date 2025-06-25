@@ -1,12 +1,12 @@
 name: Upstream Sync
 
-permissions:
-  contents: write
+#permissions:
+#  contents: write
 
 on:
   schedule:
     - cron: "0/5 * * * *" # At 12PM UTC+8
-  workflow_dispatch:
+  #workflow_dispatch:
 
 jobs:
   sync_latest_from_upstream:
