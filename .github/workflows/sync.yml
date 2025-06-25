@@ -1,8 +1,5 @@
 name: Upstream Sync
 
-#permissions:
-#  contents: write
-
 on:
   schedule:
     - cron: "0/5 * * * *" # At 12PM UTC+8
